@@ -64,8 +64,8 @@ body{
 }
 
 .sidebar{
-  width: auto;
-  object-fit: contain;
+  width: 100%;
+  display: block;
 }
 
 /* Header start*/
@@ -79,7 +79,6 @@ body{
 .header_nav{
   width: 320px;
   height: 30px;
-  position: fixed;
 }
 
 .header_nav_list {
@@ -143,5 +142,8 @@ body{
 
 /* SideBar start */
 .sidebar_img{
-  width: 100%;
+  width: 800px;
+  height: 460px;
+  background-position: top 0 right 0;
+  margin-left: 80px;
 }
